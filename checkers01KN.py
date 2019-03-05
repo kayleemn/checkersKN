@@ -2,6 +2,11 @@
 
 from graphics import*
 
+def draw_sq(sX, sY, size, color, win):
+    square = Rectangle(Point(sX, sY), Point(sX + size, sY + size))
+    square.setFill(color)
+    square.draw(win)
+
 sqSz = 50
 
 chWin = GraphWin("Checker!", sqSz * 10, sqSz * 10)
