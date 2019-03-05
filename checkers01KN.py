@@ -8,6 +8,7 @@ chWin = GraphWin("Checker!", sqSz * 10, sqSz * 10)
 chWin.setCoords(0, 0, sqSz * 10, sqSz * 10)
 
 sQ = Rectangle(Point(sqSz, sqSz), Point(sqSz * 2, sqSz * 2))
+sQ.setFill("red")
 sQ.draw(chWin)
 
 
