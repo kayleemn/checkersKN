@@ -8,12 +8,13 @@ def draw_sq(sX, sY, size, color, win):
     square.draw(win)
 
 sqSz = 50
+sqCol = "red"
 
 chWin = GraphWin("Checker!", sqSz * 10, sqSz * 10)
 chWin.setCoords(0, 0, sqSz * 10, sqSz * 10)
 
 for j in range (8):
-    for i range (8):
+    for i in range(8):
         if (i + j) % 2 == 0:
             sqCol = "black"
         else:
