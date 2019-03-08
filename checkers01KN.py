@@ -14,6 +14,10 @@ chWin.setCoords(0, 0, sqSz * 10, sqSz * 10)
 
 for j in range (8):
     for i range (8):
+        if (i + j) % 2 == 0:
+            sqCol = "black"
+        else:
+            sqCol = "red"
 
 sQ = Rectangle(Point(sqSz, sqSz), Point(sqSz * 2, sqSz * 2))
 sQ.setFill("red")
