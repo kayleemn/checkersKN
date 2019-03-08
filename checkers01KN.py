@@ -18,6 +18,7 @@ for j in range (8):
             sqCol = "black"
         else:
             sqCol = "red"
+        draw_sq(sqSz * (i+1), sqSz * (j+1), sqSz, sqCol, chWin)
 
 sQ = Rectangle(Point(sqSz, sqSz), Point(sqSz * 2, sqSz * 2))
 sQ.setFill("red")
